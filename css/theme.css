@@ -69,7 +69,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -4464,7 +4464,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -4546,7 +4546,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -9132,6 +9132,12 @@ a.skip-link {
 
 .gallery-caption {
   display: block; }
+
+h1, h2, h3 {
+  color: red; }
+
+nav {
+  position: sticky; }
 
 /*
 * Use existing Bootstrap 4 classes and
